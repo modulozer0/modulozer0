@@ -26,9 +26,10 @@
 									<a href="#menu" class="menuToggle"><span>Menu</span></a>
 									<div id="menu">
 										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="generic.html">Generic</a></li>
-											<li><a href="elements.html">Elements</a></li>
+											<li><a href="index2.html">Home</a></li>
+											<li><a href="Echipa2.html">Echipa noastră</a></li>
+											<li><a href="Galerie2.html">Galerie</a></li>
+											<li><a href="#">Înscrie-te</a></li>
 										</ul>
 									</div>
 								</li>
@@ -42,7 +43,7 @@
 							<h2>Modulo Zero</h2>
 							<p>We define impossible.</p>
 						</div>
-						<a href="#one" class="more scrolly">Learn more</a>
+						<a href="#one" class="more scrolly">Explorează mai mult</a>
 					</section>
 
 				<!-- One -->
@@ -50,8 +51,7 @@
 						<div class="inner">
 							<header class="major">
 								<h2>Who are we?</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+								<p>We are Modulo Zero, the robotics team that belongs to the Maramureș County Center of Excellence and that participates in the First Tech Challenge competition within the FIRST Inspires and Nation through Education program.</p>
 							</header>
 	
 						</div>
@@ -61,29 +61,23 @@
 					<section id="two" class="wrapper alt style2">
 						<section class="spotlight">
 							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2>the vision</h2>
-								<p> Our mission is to teach the basics of science and engineering. We want to develop professionally, as our motto "We define impossible" also supports. We want to participate in the modernization of the country and the development of the community.</p>
+								<h2>Vision & Mision</h2>
+								<p> Our FTC team is dedicated to bringing these values ​​to life through innovation, teamwork and excellence. We strive to motivate and educate young people to become leaders in the technology sector, helping them develop their "problem solving" skills and promoting a culture of teamwork and fair play. Our passion for robotics and STEM inspires us to make positive changes in our community and prepare for the challenges of the future.
+With every project, we are determined to add a touch of creativity and exceed expectations, applying our knowledge to spark curiosity about our field.</p>
 							</div>
 						</section>
 						<section class="spotlight">
 							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>The mission</h2>
-								<p>  Our mission is to teach the basics of science and engineering. We want to develop professionally, as our motto "We define impossible" also supports. We want to participate in the modernization of the country and the development of the community.</p>
+								<h2>What makes us special?</h2>
+								<p>         Our passion for technology motivated us to establish one of the only robotics teams in Romania that does not depend on a school. Thus, we give a chance to dozens of children who share the same calling as us, but do not belong to a school that has a robotics club.</p>
 							</div>
 						</section>
 						<section class="spotlight">
 							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-								<h2>The First<br>
-								Concept</h2>
-								<p>The FIRST concept means more than building a robot, it is the desire to learn
-new and important things such as: entrepreneurial skills, expression, teamwork and
-many others, all fundamental to most professions of the future. We intend to
-we cultivate curiosity and spark the interest of new generations in robotics. We wish that
-future enlightened minds to contribute to the development of the community and become even
-our team members. We support the program, we want to raise the bar with the goal of a
-continuously improve ourselves not only as individuals but also as a united team. We have mastered it
-the "gracious professionalism" principle, a spirit we want to pass on to others
-teams.</p>
+								<h2>Conceptul<br>
+								First</h2>
+								<p>The First Tech Challenge, also known as the FTC, is a robotics competition for students in grades 7-12 where participants must design, build and program a robot to compete against other teams. This competition aims to promote the values ​​of STEM (Science, Technology, Engineering and Mathematics) education among young people.
+</p>
 							</div>
 						</section>
 					</section>
@@ -97,15 +91,43 @@ teams.</p>
 							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="index2.html" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
 							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							<div class="language-dropdown">
+<select onchange="setLanguageCookie(this.value); location.reload(true);" style="color: black">
+<option value="de-DE">Deutsch</option>
+<option value="en-US">English</option>
+<option value="es-ES">Español (España)</option>
+<option value="es-MX">Español (LATAM)</option>
+<option value="fr-FR">Français</option>
+<option value="it-IT">Italiano</option>
+<option value="ja-JP">日本語</option>
+<option value="ro-RO">Română</option>
+<option value="tr-TR">Türkçe</option>
+<option value="zh-CN">简体字</option>
+<option value="zh-TW">繁體字</option>
+</select>
+<script>
+  function setLanguageCookie(value)
+  {
+    var c_name = 'language_';
+    var exdays = 5000;
+    var date = new Date();
+    date.setTime(date.getTime()+(exdays*60*60*24*1000));
+    var c_value=escape(value) + ((exdays==null) ? "" : "; expires=" + date.toGMTString());
+    var domainName = "code.org";
+    c_value += "; domain=." + escape(domainName) + "; path=/";
+    document.cookie=c_name + "=" + c_value;
+  }
+</script>
+
+</div>
 						</ul>
 						<ul class="copyright">
-							<li>&copy; Modulo Zero</li><li>Coded with love by Sima & Abru</li>
+							<li>&copy; Modulo Zero</li><li>Coded with love by Sima Alexandru & Abrudan Alexandru</li>
 						</ul>
 					</footer>
 
-			</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
