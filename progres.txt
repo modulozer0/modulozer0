@@ -1,0 +1,26 @@
+Romana:-index:da
+	-Echipa:da
+	-Galerie:da
+Engleză:-index:da(-meniu)
+	-Echipa:
+	-Galerie:
+Turcă:-index:da(-meniu)
+	-Echipa:
+	-Galerie:
+Maghiară:-index:da(-meniu)
+	-Echipa:
+	-Galerie:
+Franceză:-index:da
+	-Echipa:
+	-Galerie:
+Germană:-index:da
+	-Echipa:
+	-Galerie:
+limba:-index:
+	-Echipa:
+	-Galerie:
+limba:-index:
+	-Echipa:
+	-Galerie:
+
+	
